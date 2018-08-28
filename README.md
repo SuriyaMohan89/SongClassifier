@@ -7,6 +7,15 @@ This program helps content rate a song(lyrics) based on the content of the song 
 
 Will touchbase on different components within the system.
 
+### Requirements and Executing
+
+You need to have JDK 1.7 or higher. Its easier to run with intellij Idea IDE. 
+
+- Open the idea file from intellij
+- Run the Main.java file from the IDE
+
+CLI: <TODO>
+
 #### CONTROL FLOW / Controller
 A centralized controller will take care of integrating different components with each other. This was chosen instead of a decentralized architecture, with the extensibility usecase into consideration. You can plug in different kind of song providers (url/database) and different classifiers and different storage into this centralized brian without affecting the flow of data and control within the application itself.
 
