@@ -15,6 +15,10 @@ You need to have JDK 1.7 or higher. Its easier to run with intellij Idea IDE.
 - Run the Main.java file from the IDE
 
 CLI: <TODO>
+  
+### Various Components
+
+Here are the different components within the SongClassifier and how to extend them. Most of them have interface/implementation to provide extensibility.
 
 #### CONTROL FLOW / Controller
 A centralized controller will take care of integrating different components with each other. This was chosen instead of a decentralized architecture, with the extensibility usecase into consideration. You can plug in different kind of song providers (url/database) and different classifiers and different storage into this centralized brian without affecting the flow of data and control within the application itself.
