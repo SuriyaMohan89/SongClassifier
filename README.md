@@ -26,7 +26,7 @@ when a song object is passed on a Rating class, rate as a string is returned. Th
 Now in a classifier component, there are many ways to classify a song like using algorithms like Markov chain or a sentiment analysis algorithm
 but for demo purpose I have used simple word classifier which returns rate X, V, D or Clean based on the content in song lyrics.
 
-SONG SERIALIZER 
+## SONG SERIALIZER 
 
 This component helps the song object with the rating to store in a file system or a database or a Hadoop FDS. For POC, I have implemented 
 store method to store in file system with prefix hadoop_<songid>. 
